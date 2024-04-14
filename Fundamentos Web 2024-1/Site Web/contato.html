@@ -3,9 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fale Conosco</title>
 </head>
 <body>
-    <h1>Olá</h1>
+    <font face="arial" size="3" align="center">
+        <h1 align="center"><b>Fale Conosco</b></h1>
+        <form action="DadosContato.html" method="post">
+
+            <label for="nome"><b>Nome:</b></label>
+            <input type="text" name="nome" size="30" maxlength="30" placeholder="Nome Completo" required> <br><br>
+
+            <label for="cpf"><b>CPF:</b></label>
+            <input type="text" name="cpf" size="30" maxlength="13" placeholder="000.000.000-00" required> <br><br>
+
+            <label for="endereço"><b>Endereço:</b></label>
+            <input type="text" name="endereço" size="50" maxlength="50" placeholder="Rua, Número, Bairro" required> <br><br>
+
+            <label for="email"><b>E-mail:</b></label>
+            <input type="email" name="email" size="30" maxlength="30" placeholder="email@gmail.com" required> <br><br>
+
+            <label for="nascimento"><b>Nascimento:</b></label>
+            <input type="date" name="nascimento" min="1980-01-01" max="2023-12-31" required> <br><br>
+
+            <label for="estado civil"><b>Estado civil</b></label> <br>
+            <input type="radio" name="estado civil" value="s">Solteiro <br>
+            <input type="radio" name="estado civil" value="c">Casado <br>
+            <input type="radio" name="estado civil" value="d">Divorciado <br>
+            <input type="radio" name="estado civil" value="v">Viúvo <br><br>
+
+            <label for="tecnologias preferidas"><b>Tecnologias preferidas:</b></label> <br>
+            <input type="checkbox" name="tecnologias preferidas" value="html">HTML <br>
+            <input type="checkbox" name="tecnologias preferidas" value="xml">XML <br>
+            <input type="checkbox" name="tecnologias" value="xhtml">XHTML <br>
+            <input type="checkbox" name="tecnologias" value="css">CSS <br><br>
+            
+            <label for="mensagem"><b>Mensagem de DadosContato:</b></label> <br>
+            <textarea name="mensagem" rows="10" cols="100" required></textarea> <br><br>
+
+            <label for="ano do primeiro emprego"><b>Ano do primeiro emprego:</b></label>
+            <input type="number" name="nome do primeiro emprego" size="30" maxlength="30" required> <br><br>
+
+
+
+        </form>
+    </font>
 </body>
 </html>
