@@ -8,7 +8,7 @@
 <body>
     <font face="arial" size="3" align="center">
         <h1 align="center"><b>Fale Conosco</b></h1>
-        <form action="DadosContato.html" method="post">
+        <form action="dadoscontato.html" method="post">
 
             <label for="nome"><b>Nome:</b></label>
             <input type="text" name="nome" size="30" maxlength="30" placeholder="Nome Completo" required> <br><br>
@@ -26,22 +26,38 @@
             <input type="date" name="nascimento" min="1980-01-01" max="2023-12-31" required> <br><br>
 
             <label for="estado civil"><b>Estado civil</b></label> <br>
-            <input type="radio" name="estado civil" value="s">Solteiro <br>
+            <input type="radio" name="estado civil" value="s" required>Solteiro <br>
             <input type="radio" name="estado civil" value="c">Casado <br>
             <input type="radio" name="estado civil" value="d">Divorciado <br>
             <input type="radio" name="estado civil" value="v">Viúvo <br><br>
 
             <label for="tecnologias preferidas"><b>Tecnologias preferidas:</b></label> <br>
-            <input type="checkbox" name="tecnologias preferidas" value="html">HTML <br>
-            <input type="checkbox" name="tecnologias preferidas" value="xml">XML <br>
-            <input type="checkbox" name="tecnologias" value="xhtml">XHTML <br>
-            <input type="checkbox" name="tecnologias" value="css">CSS <br><br>
-            
-            <label for="mensagem"><b>Mensagem de DadosContato:</b></label> <br>
+            <input type="checkbox" name="tec" value="html">HTML <br>
+            <input type="checkbox" name="tec" value="xml">XML <br>
+            <input type="checkbox" name="tec" value="xhtml">XHTML <br>
+            <input type="checkbox" name="tec" value="css">CSS <br><br>
+
+            <label for="profissão"><b>Profissão:</b></label>
+            <select size="1" name="profissão" required>
+                <option value="dw">Desenvolvedor Web</option>
+                <option value="eg">Engenheiro</option>
+                <option value="ds">Designer</option>
+            </select>
+            <br><br>
+            <label for="mensagem"><b>Mensagem de Contato:</b></label> <br>
             <textarea name="mensagem" rows="10" cols="100" required></textarea> <br><br>
 
             <label for="ano do primeiro emprego"><b>Ano do primeiro emprego:</b></label>
             <input type="number" name="nome do primeiro emprego" size="30" maxlength="30" required> <br><br>
+
+            <label for="link da rede social"><b>Link da rede social:</b></label>
+            <input type="url" size="40" required>
+            <br><br>
+            <label for="senha"><b>Senha:</b></label>
+            <input type="password" size="20" maxlength="15" placeholder="maximo de 15 caracteres">
+            <br><br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
 
 
 

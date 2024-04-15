@@ -6,6 +6,42 @@
     <title>Formulário</title>
 </head>
 <body>
-    <form action=""></form>
+    <font face="arial" size="3" align="justify">
+        <h1>Formulário</h1> <br><br>
+        <form action="testes/resposta.html" method="post">
+            <label for="nome"><b>Nome:</b></label>
+                <input type="text" name="nome" size="40" maxlength="30" required> <br><br>
+    
+                <label for="senha"><b>Senha:</b></label>
+                <input type="password" name="senha" size="15" maxlength="15">
+                    <br><br>
+                <label for="sistema operacional"><b>Sistema operacional</b></label>
+                <input type="checkbox" name="so" value="w7">Windows 7
+                <input type="checkbox" name="so" value="w10">Windows 10
+                <input type="checkbox" name="so" value="lx">Linux
+                <input type="checkbox" name="so" value="mac">Mac OS
+                    <br><br>
+                <label for="processador"><b>Processador</b></label>
+                <input type="radio" name="cpu" value="intel">Intel
+                <input type="radio" name="cpu" value="amd">Amd
+                <input type="radio" name="cpu" value="cx">Cyrlx
+                        <br><br>
+                <label for="profissao"><b>Profissão:</b></label> <br>
+                <select size="2">
+                    <option value="asis">Analista de Sistemas</option>
+                    <option value="asup">Analista de Suporte</option>
+                </select>
+                    <br><br>
+                <label for="comentários"><b>Comentários:</b></label>
+                <br>
+                <textarea name="comentario" rows="8" cols="80">
+                </textarea>
+                    <br><br>
+                <input type="submit" value="Enviar Dados">
+                <input type="reset" value="Limpar Dados">
+
+
+        </form>
+    </font>
 </body>
 </html>
