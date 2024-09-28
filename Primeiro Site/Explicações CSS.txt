@@ -1,0 +1,23 @@
+Todas as coisas a mais que utilizei foram pegas do youtube ou materiais complementares da matéria.
+
+
+gap: Espaço entre os elementos
+
+cursos: Muda o cursor para aquela "mãozinha", para a lupa, pareca o I entre outros...
+
+transition: ao invés de quando for para outra ação e ir "seco", essa propriedade faz com que haja uma leve transição (dependendo dos valores)
+
+var: permite que armazene valores e reutilize-os em várias partes, como fiz nos cards, que botei um var e no css falei para que esse var tivesse tal imagem, nisso só nessa
+área terá a imagem
+
+flex: define como os itens dentro da flexbox devem crescer ou encolher
+ex: flex: 2 faz crescer duas vezes mais que os outros itens
+
+animation: tentei botar algumas animações porém algumas não foram
+
+menu dropbox: encontrei seu material sobre esse menu e outros videos e acabei seguindo passo a passo
+
+
+
+
+
