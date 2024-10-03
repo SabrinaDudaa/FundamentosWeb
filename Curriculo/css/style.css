@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Afacad Flux';
+    background: #4d4d4d;
+}
+
+header{
+    background:#4b4bfd;
+    color: white;
+
+    border-bottom: 3px solid white;
+}
+
+.perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apresenta{
+    background: #8d8d8d;
+    padding: 35px;
+
+    position: relative;
+    left: -100px;
+
+    border-radius: 35px;
+}
+
+.apresenta h1, h2, h3{
+    margin-left: 30px;
+}
+
+.apresenta h2{
+    font-size: 1.2em;
+}
+
+#img_perfil{
+    display: inline-block;
+    margin: 50px;
+    z-index: 1;
+
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid white;
+    box-shadow: 2px 1px 10px black;
+}
+
+@media (max-width:478px){
+    .apresenta h1, h2, h3{
+        margin-top: 6px;
+    }
+
+    .apresenta h1{
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 768px) {
+    .apresenta h1, h2, h3{
+        margin-top: 6px;
+    }
+
+
+    .apresenta h1{
+        font-size: 1.3em;
+    }
+}
+
+
+section{
+    display: flex;
+}
+
+.sobre{
+    color: white;
+    margin: 100px;
+    width: 600px;
+}
+
+.sobre h2{
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.sobre p{
+    border-top: 1px solid white;
+   line-height: 1.5;
+   margin-top: 5px;
+
+   font-size: 1.1em;
+}
+
+.sobre h3{
+    margin: 10px 0 10px;
+    line-height: 1.7;
+
+    font-size: 1.05em;
+}
+
+.sobre a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+
+    font-style: italic;
+}
+
+.sobre a:hover{
+color: plum;
+}
